@@ -34,7 +34,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: quay.io/snehakpersistent/stefanprodan-podinfo:3.1.0
+        image: quay.io/snehakpersistent/stefanprodan-podinfo:5.2.1
         imagePullPolicy: IfNotPresent
         ports:
           - name: http
@@ -55,7 +55,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Welcome to Flux! Using images from quay.'
+          - --ui-message='Welcome to Flux! Using ppc64le podinfo image.'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
