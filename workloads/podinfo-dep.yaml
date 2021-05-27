@@ -55,7 +55,7 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-          - --ui-message='Welcome to Flux! Using ppc64le podinfo image.'
+          - --ui-message='Welcome to Flux! New change.'
         env:
           - name: PODINFO_UI_COLOR
             value: "#34577c"
